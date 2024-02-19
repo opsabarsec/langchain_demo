@@ -3,7 +3,7 @@
 
 This repository allows using the [LangChain library](https://python.langchain.com/docs/get_started/introduction) for building powerful applications with large language models (LLMs). By following the instructions below you will be able to connect large language models (LLMs) like OpenAI's GPT-3.5 Turbo throug an APIs and run them from command line.
 This approach is much more versatile than having to enter prompts manually using web interfaces. 
-And you can build on it. LangChain is designed to allow training of LLMs on your own data. It also seamlessly integrates into several platforms such as MS Azure, Amazon Web Services, Google cloud...
+And you can build your own code upon it. LangChain is designed to allow training of LLMs on your own data. It also seamlessly integrates into several platforms such as MS Azure, Amazon Web Services, Google cloud...
 
 ### How to install it and run it on your PC
 
