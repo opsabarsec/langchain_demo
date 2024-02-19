@@ -18,7 +18,7 @@ conda activate langchain_demo
 
 - STEP 1: Get the package and install dependencies in your environment.
 
-git clone {address of this package on github}
+git clone {address of this github repo}
 
 pip install -r /path/to/requirements.txt
 
