@@ -25,7 +25,8 @@ pip install -r /path/to/requirements.txt
   
 You are almost done. But you need to connect to OPENAI API with your own key. 
 You can create one easily if you have a Chat-GPT account that you will use for the [OpenAI website](https://platform.openai.com/account/api-keys).
-[Check out this tutorial if you do for the first time](https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/)
+
+[Check out this tutorial if you do for the first time.](https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/)
 
 Copy it and store it in a safe place. 
 You will have to paste it into the .env file that you find in this repository.
