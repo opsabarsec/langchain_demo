@@ -9,16 +9,17 @@ And you can build on it. LangChain is designed to allow training of LLMs on your
 
 I assume that you have Python and Anaconda installed. The second is not mandatory but recommended.
 
-- Optional step: create a conda environment to run this package
+- Optional step: Create a conda environment to run this package.
 Get to your terminal and run:
 
 conda create -n langchain_demo python=3.11.4
 
 conda activate langchain_demo
 
-- STEP 1: get the package and install dependencies in your environment.
+- STEP 1: Get the package and install dependencies in your environment.
 
-git clone <address of this package on github>
+git clone {address of this package on github}
+
 pip install -r /path/to/requirements.txt
 
 - STEP 2: Add your API key to connect to OPEN AI.
