@@ -1,5 +1,5 @@
 # LangChain Demo
-![LangChain logo](https://images.app.goo.gl/LH3snUwHdFDiuA5y5)
+![LangChain logo](/langchain.png)
 
 This repository allows using the [LangChain library](https://python.langchain.com/docs/get_started/introduction) for building powerful applications with large language models (LLMs). By following the instructions below you will be able to connect large language models (LLMs) like OpenAI's GPT-3.5 Turbo throug an APIs and run them from command line.
 This approach is much more versatile than having to enter prompts manually using web interfaces. 
