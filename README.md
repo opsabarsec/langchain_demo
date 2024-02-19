@@ -16,19 +16,21 @@ conda create -n langchain_demo python=3.11.4
 
 conda activate langchain_demo
 
-- STEP 1: get the package and install dependencies in your environment
+- STEP 1: get the package and install dependencies in your environment.
 
 git clone <address of this package on github>
 pip install -r /path/to/requirements.txt
 
-- STEP 2: Add your API key to connect to OPEN AI for example.
+- STEP 2: Add your API key to connect to OPEN AI.
   
-You are almost done. But you need to connect to OPENAI API with your own key.
-[Create your key on OPEN AI tutorial](https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/)
+You are almost done. But you need to connect to OPENAI API with your own key. 
+You can create one easily if you have a Chat-GPT account that you will use for the [OpenAI website](https://platform.openai.com/account/api-keys).
+[Check out this tutorial if you do for the first time](https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/)
 
 Copy it and store it in a safe place. 
 You will have to paste it into the .env file that you find in this repository.
 You cannot go wrong, as there is written OPENAI_API_KEY = "paste value here".
 Save and close.
+
 - STEP 3: Enjoy!
 Now you are ready to go. You can even run the jupyter notebook in this repo and play with your own prompts.
