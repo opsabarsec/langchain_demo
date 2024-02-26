@@ -20,7 +20,7 @@ conda activate langchain_demo
 
 git clone {address of this github repo}
 
-pip install -r /path/to/requirements.txt
+pip install -r requirements.txt
 
 - STEP 2: Add your API key to connect to OPEN AI.
   

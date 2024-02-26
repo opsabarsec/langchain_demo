@@ -1,3 +1,5 @@
+"""Example script: enter a prompt and get ChatGPT answer"""
+
 from langchain_openai.chat_models import ChatOpenAI
 from dotenv import load_dotenv
 from pathlib import Path
