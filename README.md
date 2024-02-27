@@ -6,6 +6,7 @@ This approach is much more versatile than having to enter prompts manually using
 And you can build your own code upon it. LangChain is designed to allow training of LLMs on your own data. It also seamlessly integrates into several platforms such as MS Azure, Amazon Web Services, Google cloud...
 
 ### How to install it and run it on your PC
+---- Video tutorial can be found [here](https://www.youtube.com/watch?v=DhFfw04QDHw) -----
 
 I assume that you have Python and Anaconda installed. The second is not mandatory but recommended.
 
@@ -36,3 +37,12 @@ Save and close.
 
 - STEP 3: Enjoy!
 Now you are ready to go. You can even run the jupyter notebook in this repo and play with your own prompts.
+
+### Augmented Chat-GPT with Langchain Agents
+![bike logo](/cyberbike.jpg)
+
+Location-related advice for bike tourist example. ![code in this notebook](demo_touradvice.ipynb)
+
+Using the Langchain Agent library you can prompt the openweather_API to obtain the current local weather.
+This information is fed to OpenAI LLMs to obtain an advice for bike tourist visiting the given city.
+
