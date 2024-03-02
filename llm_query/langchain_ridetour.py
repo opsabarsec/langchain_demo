@@ -33,7 +33,7 @@ class RideAdvice(GetWeather):
     # I initialize the module and define the additional question to pose to the LLM
     def __init__(self):
         GetWeather.__init__(self)
-        self.add_sentence = " Is it good weather for cycling?. And what are the best places to visit there?"
+        self.add_sentence = " Is it good weather for cycling? And what are the best places to visit there?"
     # I combine the output of OpenWeatherAPI to the question above     
     def tour_advice(self, city):
         weather_prompt = str(self.answer(city)+self.add_sentence)
